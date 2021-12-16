@@ -47,12 +47,6 @@
                 <artifactId>mule-maven-plugin</artifactId>
                 <version>3.5.2</version>
                 <extensions>true</extensions>
-                <configuration>
-                    <standaloneDeployment>
-                        <muleHome>${mule.home.test}</muleHome>
-                        <skip>true</skip>
-                    </standaloneDeployment>
-                </configuration>
             </plugin>
 		</plugins>
 	</build>
