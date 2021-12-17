@@ -41,9 +41,7 @@
 						<objectStoreV2>${objectStoreV2}</objectStoreV2>
 					</cloudHubDeployment>
 					<runtimeFabricDeployment>
-                        ...
                        <skipDeploymentVerification>true</skipDeploymentVerification>
-                        ...
                     </runtimeFabricDeployment>
 				</configuration>
 			</plugin>
