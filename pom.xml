@@ -40,10 +40,6 @@
 						<workerType>${workerType}</workerType>
 						<objectStoreV2>${objectStoreV2}</objectStoreV2>
 					</cloudHubDeployment>
-					<standaloneDeployment>
-                      <muleHome>${mule.home.test}</muleHome>
-                      <skip>true</skip>
-                    </standaloneDeployment>
 				</configuration>
 			</plugin>
 		</plugins>
