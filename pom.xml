@@ -27,7 +27,7 @@
 			<plugin>
 				<groupId>org.mule.tools.maven</groupId>
 				<artifactId>mule-maven-plugin</artifactId>
-				<version>${mule.maven.plugin.version}</version>
+				<version>3.5.2</version>
 				<extensions>true</extensions>
 				<configuration>
 					<cloudHubDeployment>
@@ -40,9 +40,6 @@
 						<workerType>${workerType}</workerType>
 						<objectStoreV2>${objectStoreV2}</objectStoreV2>
 					</cloudHubDeployment>
-					<runtimeFabricDeployment>
-                       <skipDeploymentVerification>true</skipDeploymentVerification>
-                    </runtimeFabricDeployment>
 				</configuration>
 			</plugin>
 		</plugins>
