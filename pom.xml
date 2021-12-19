@@ -27,18 +27,18 @@
 			<plugin>
 				<groupId>org.mule.tools.maven</groupId>
 				<artifactId>mule-maven-plugin</artifactId>
-				<version>3.5.2</version>
+				<version>${mule.maven.plugin.version}</version>
 				<extensions>true</extensions>
 				<configuration>
 					<cloudHubDeployment>
-						<muleVersion>${muleVersion}</muleVersion>
-						<username>${username}</username>
-						<password>${password}</password>
-						<environment>${environment}</environment>
-						<applicationName>${applicationName}</applicationName>
-						<workers>${workers}</workers>
-						<workerType>${workerType}</workerType>
-						<objectStoreV2>${objectStoreV2}</objectStoreV2>
+						<muleVersion>4.3.0</muleVersion>
+						<username>test278</username>
+						<password>Srikanth1234</password>
+						<environment>Sandbox</environment>
+						<applicationName>cloudhub-project</applicationName>
+						<workers>1</workers>
+						<workerType>MICRO</workerType>
+						<objectStoreV2>true</objectStoreV2>
 					</cloudHubDeployment>
 				</configuration>
 			</plugin>
